@@ -1,0 +1,13 @@
+{
+    "buildCommand":"cd Client && npm install && npm run build",
+    "outputDirectory":"Client/build",
+    "framework":"react",
+    "rewrites":[
+        {
+            "source":"/server/(.*)",
+            "destination":"/server/index.js"
+
+        }
+    ]
+    
+}

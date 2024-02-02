@@ -23,7 +23,7 @@ app.use(cors({
 
 }))
 app.use(cookieParser());
-app.get('/app/test',(req,res)=>{
+app.get('/test',(req,res)=>{
     res.json('test ok');
 })
 
